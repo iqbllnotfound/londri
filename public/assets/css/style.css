@@ -1,0 +1,133 @@
+body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* *{
+    border: 1px solid red;
+} */
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 250px; /* Lebar sidebar */
+    height: 100vh; /* Tinggi penuh */
+    background: #010843;
+    color: white;
+    padding: 20px 0;
+}
+
+.title-sidebar{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+    width: 100%;
+
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    /* border-radius: 5px; */
+    width: auto;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar ul li:hover {
+    background: #003161;
+}
+
+.content {
+    position: relative;
+    margin-left: 250px; /* Sesuai dengan lebar sidebar */
+    padding: 20px;
+    width: calc(100% - 250px); /* Menyesuaikan sisa lebar layar */
+}
+
+.li-logout{
+    position: absolute;
+    bottom: 0;
+    /* right: 20px; */
+}
+
+
+.title-home{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.table-responsive{
+    margin-top: 30px;
+}
+.section-table-admin{
+    width: 100%;
+    overflow-x: scroll ;
+}
+.table-responsive .table{
+    width: 100%;
+}
+
+.table thead tr th{
+    background-color: #003161;
+    color: white;
+}
+.table tbody tr td, .table thead tr th{
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+.section-form-input .table tr td{
+    text-align: start;
+}
+
+.btn-input{
+    text-align: center !important;
+}
+.btn-input button{
+    width: 100% !important;
+}
+
+.td-aksi {
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.section-serch-bar{
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.search-date{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search-date .search-date-btn{
+    background-color: #054f9a;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    color: white;
+}
