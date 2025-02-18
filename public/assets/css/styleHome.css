@@ -14,8 +14,8 @@
   background: linear-gradient(
     138deg,
     rgba(46, 80, 119, 1) 0%,
-    rgba(77, 161, 169, 1) 33%,
-    rgba(121, 215, 190, 1) 100%
+    rgba(0, 187, 129) 60%,
+    rgba(0, 187, 129) 100%
   );
 }
 
@@ -74,7 +74,12 @@
 
 
 .about {
-  background-color: #79D7BE;
+  background: linear-gradient(
+    138deg,
+    rgba(46, 80, 119, 1) 0%,
+    rgba(0, 187, 129) 60%,
+    rgba(0, 187, 129) 100%
+  );
   height: 350px;
 }
 
@@ -112,7 +117,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #79D7BE;
+  background: linear-gradient(
+    138deg,
+    rgba(46, 80, 119, 1) 0%,
+    rgba(0, 187, 129) 60%,
+    rgba(0, 187, 129) 100%
+  );
   z-index: 3;
 }
 
@@ -136,8 +146,8 @@ footer {
   background: linear-gradient(
     138deg,
     rgba(46, 80, 119, 1) 0%,
-    rgba(77, 161, 169, 1) 33%,
-    rgba(121, 215, 190, 1) 100%
+    rgba(0, 187, 129) 60%,
+    rgba(0, 187, 129) 100%
   );
   /* padding: 16px 0px; */
 }

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
+    <title>H! Lown</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
 
@@ -15,9 +15,9 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand p-2" href="#">
-                <img src="{{ asset('assets/img/logo.png') }}" alt="" width="50" height="50"
+                <img src="{{ asset('assets/img/H!Lown.png') }}" alt="" width="50" height="50"
                     class="d-inline-block align-text-center me-2" />
-                Laundry
+                H! Lown
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -38,12 +38,12 @@
         <!-- <div class="container"> -->
         <div class="row">
             <div class="col-md-6">
-                <img src="{{ asset('assets/img/question.png') }}" alt="" class="img-fluid question-mark-1" />
-                <img src="{{ asset('assets/img/question.png') }}" alt="" class="img-fluid question-mark-2" />
+                {{-- <img src="{{ asset('assets/img/question.png') }}" alt="" class="img-fluid question-mark-1" />
+                <img src="{{ asset('assets/img/question.png') }}" alt="" class="img-fluid question-mark-2" /> --}}
                 <div class="text-header text-start">
                     <p>Ingin cuci pakaian anda?</p>
-                    <p>Tapi bingung cari tempat cuci yang cepat dimana</p>
-                    <p>Di Laundy Citra Negara aja!</p>
+                    <p>Tapi butuh tempat yang affordable?</p>
+                    <p>Di Hi Lown aja!</p>
                 </div>
             </div>
             <div class="col-md-6">
@@ -60,21 +60,21 @@
                     <div class="card-about mx-auto shadow">
                         <i class="fa-regular fa-clock icon-about"></i>
                         <p class="mt-3 title-card">Waktu Buka</p>
-                        <p>24 Jam / 7</p>
+                        <p>Senin - Jumat (08.00 - 17.00)</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card-about mx-auto shadow">
                         <i class="fa-solid fa-dollar-sign icon-about"></i>
                         <p class="mt-3 title-card">Harga</p>
-                        <p>Rp. 10.000 / kg</p>
+                        <p>Harga Start Rp 7.000/Kg Saja Lho!</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card-about mx-auto shadow">
-                        <i class="fa-solid fa-hands-bubbles icon-about"></i>
-                        <p class="mt-3 title-card">Wangi Cucian</p>
-                        <p>Ada berbagai pewangi</p>
+                        <i class="fa-solid fa-soap icon-about"></i>
+                        <p class="mt-3 title-card">Dijamin Wangi!</p>
+                        <p>Menggunakan Pewangi Premium</p>
                     </div>
                 </div>
             </div>
@@ -135,13 +135,13 @@
 
     <footer>
         <div class="container">
-            <img src="{{ asset('assets/img/logo.png') }}" alt="" class="img-fluid img-footer">
+            <img src="{{ asset('assets/img/H!Lown.png') }}" alt="" class="img-fluid img-footer">
             <div class="footer-text text-center">
-                <span>Jl. Tanah Baru Jl. Kemiri Jaya No.99, Beji, Kecamatan Beji, Kota Depok, Jawa Barat 16421</span>
+                <span>Perumahan Orchid Green Village Blok C4, Kel. Tanahbaru, Beji, Depok 16426</span>
             </div>
         </div>
         <div class="copyright text-center">
-            <p class="mb-0">Copyright &copy; 2023 Laundry Citra Negara</p>
+            <p class="mb-0">Copyright &copy; 2025 Hi Lown </p>
         </div>
     </footer>
 
