@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <title>Bootstrap demo</title>
+    <title>Admin - H! Lown</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -15,7 +15,7 @@
     
     <header>
     <div class="sidebar">
-        <div class="title-sidebar">Laundry Bersih</div>
+        <div class="title-sidebar">H! Lown</div>
         <hr>
         <ul>
             @if(auth()->user()->role == 'admin')

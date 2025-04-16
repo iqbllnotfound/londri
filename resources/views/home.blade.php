@@ -37,18 +37,24 @@
     <section class="header mt-5">
         <!-- <div class="container"> -->
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-8">
                 {{-- <img src="{{ asset('assets/img/question.png') }}" alt="" class="img-fluid question-mark-1" />
                 <img src="{{ asset('assets/img/question.png') }}" alt="" class="img-fluid question-mark-2" /> --}}
                 <div class="text-header text-start">
-                    <p>Ingin cuci pakaian anda?</p>
-                    <p>Tapi butuh tempat yang affordable?</p>
+                    <p>Selamat datang di HI Lown!!</p>
+                    <p>Lagi cari tempat laundry yang murah?</p>
+                    <p>Tapi hasil gak murahan?  </p>
                     <p>Di Hi Lown aja!</p>
+                    <h4>Contact Us --->>></h4>
+                    <a href="https://wa.link/r2rw1t" class="btn btn-outline-success">Aku Mau Reserve Dong!!</a>
+                    
                 </div>
             </div>
-            <div class="col-md-6">
-                <img src="{{ asset('assets/img/header.png') }}" alt="" class="img-fluid" />
+            <div class="qr">
+            <div>
+                <img src="{{ asset('assets/img/QRLOWN.png') }}" alt="" class="img-fluid" />
             </div>
+        </div>
         </div>
         <!-- </div> -->
     </section>
